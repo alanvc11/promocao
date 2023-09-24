@@ -1,0 +1,56 @@
+body{
+    font-family: arial;
+}
+.conteiner{
+    background-color: #fff;
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px;
+}
+.h1{
+    text-align: center;
+}
+.promocao{
+    background-color: #33cc33;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+.promocao h2{
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+}
+.promocao p{
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+}
+.fidelidade{
+    background-color: blue;
+    padding: 10px;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+.fidelidade h2{
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+}
+.fidelidade p{
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+.promocao:hover{
+    transform: scale(1.05);
+}
+.fidelidade:hover{
+    transform: scale(1.05);
+}
+.nave{
+    box-shadow: 0px 0px 10px;
+}
